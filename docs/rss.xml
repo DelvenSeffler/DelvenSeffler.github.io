@@ -1,5 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Delven's Bolg</title><link>https://DelvenSeffler.github.io</link><description>DelvenSeffler's Bolg   幻想，发癫，碎碎念</description><copyright>Delven's Bolg</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/61365778</url><title>avatar</title><link>https://DelvenSeffler.github.io</link></image><lastBuildDate>Sun, 14 Dec 2025 16:16:58 +0000</lastBuildDate><managingEditor>Delven's Bolg</managingEditor><ttl>60</ttl><webMaster>Delven's Bolg</webMaster><item><title>我进了盗梦空间？</title><link>https://DelvenSeffler.github.io/post/wo-jin-le-dao-meng-kong-jian-%EF%BC%9F.html</link><description>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Delven's Bolg</title><link>https://DelvenSeffler.github.io</link><description>DelvenSeffler's Bolg   幻想，发癫，碎碎念</description><copyright>Delven's Bolg</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/61365778</url><title>avatar</title><link>https://DelvenSeffler.github.io</link></image><lastBuildDate>Sun, 14 Dec 2025 17:10:56 +0000</lastBuildDate><managingEditor>Delven's Bolg</managingEditor><ttl>60</ttl><webMaster>Delven's Bolg</webMaster><item><title>Trash can</title><link>https://DelvenSeffler.github.io/post/Trash%20can.html</link><description>
+————
+我要跳伞了
+我没伞
+2025.12.11
+
+
+————
+感觉身上有蚂蚁在爬，哦，真的有蚂蚁在爬。</description><guid isPermaLink="true">https://DelvenSeffler.github.io/post/Trash%20can.html</guid><pubDate>Sun, 14 Dec 2025 17:10:28 +0000</pubDate></item><item><title>我进了盗梦空间？</title><link>https://DelvenSeffler.github.io/post/wo-jin-le-dao-meng-kong-jian-%EF%BC%9F.html</link><description>
 今天回到家的时候，把摩托停好，注意到停车位后边的老宝马汽车不见了，那辆老宝马车自打我住进公寓就一直停在那，落满了灰，每次停车我都用它来确认我有没有把车停到对的位置，突然没了还有点怪怪的。</description><guid isPermaLink="true">https://DelvenSeffler.github.io/post/wo-jin-le-dao-meng-kong-jian-%EF%BC%9F.html</guid><pubDate>Sun, 14 Dec 2025 16:13:27 +0000</pubDate></item><item><title>箱子</title><link>https://DelvenSeffler.github.io/post/xiang-zi.html</link><description>我每天待在家里，有一个星期没走出过公寓。</description><guid isPermaLink="true">https://DelvenSeffler.github.io/post/xiang-zi.html</guid><pubDate>Wed, 19 Nov 2025 16:15:01 +0000</pubDate></item><item><title>VS Code 如何配置 Java 环境</title><link>https://DelvenSeffler.github.io/post/VS%20Code%20-ru-he-pei-zhi-%20Java%20-huan-jing.html</link><description>
 
 ## 一 下载并安装 JDK
