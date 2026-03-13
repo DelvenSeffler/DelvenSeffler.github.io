@@ -39,7 +39,7 @@
 <meta property="og:url" content="https://DelvenSeffler.github.io/post/Git--gong-ju-shi-yong-jiao-cheng-%EF%BC%9A-ru-he-shi-yong--Git--shang-chuan-xiang-mu-dao--GitHub.html">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/61365778">
 <title>Git-工具使用教程：如何使用-Git-上传项目到-GitHub</title>
-
+<link href="//unpkg.com/@wooorm/starry-night@2.1.1/style/both.css" rel="stylesheet" />
 
 
 </head>
@@ -110,9 +110,8 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <ul>
 <li>
 <p>下载并安装 <a href="https://git-scm.com/" rel="nofollow">Git</a>，安装后配置全局用户名和邮箱：</p>
-<pre lang="bash" class="notranslate"><code class="notranslate">git config --global user.name "YourName"
-git config --global user.email "YourEmail@example.com"
-</code></pre>
+<div class="highlight highlight-source-shell"><pre class="notranslate">git config --global user.name <span class="pl-s"><span class="pl-pds">"</span>YourName<span class="pl-pds">"</span></span>
+git config --global user.email <span class="pl-s"><span class="pl-pds">"</span>YourEmail@example.com<span class="pl-pds">"</span></span></pre></div>
 </li>
 </ul>
 <h3>2. 创建 GitHub 账户：</h3>
@@ -136,23 +135,19 @@ git config --global user.email "YourEmail@example.com"
 <ol>
 <li>
 <p>打开终端或命令行工具，进入项目文件夹：</p>
-<pre lang="bash" class="notranslate"><code class="notranslate">cd /path/to/your/project
-</code></pre>
+<div class="highlight highlight-source-shell"><pre class="notranslate"><span class="pl-c1">cd</span> /path/to/your/project</pre></div>
 </li>
 <li>
 <p>初始化 Git 仓库：</p>
-<pre lang="bash" class="notranslate"><code class="notranslate">git init
-</code></pre>
+<div class="highlight highlight-source-shell"><pre class="notranslate">git init</pre></div>
 </li>
 <li>
 <p>添加项目文件到 Git 仓库：</p>
-<pre lang="bash" class="notranslate"><code class="notranslate">git add .
-</code></pre>
+<div class="highlight highlight-source-shell"><pre class="notranslate">git add <span class="pl-c1">.</span></pre></div>
 </li>
 <li>
 <p>提交更改：</p>
-<pre lang="bash" class="notranslate"><code class="notranslate">git commit -m "Initial commit"
-</code></pre>
+<div class="highlight highlight-source-shell"><pre class="notranslate">git commit -m <span class="pl-s"><span class="pl-pds">"</span>Initial commit<span class="pl-pds">"</span></span></pre></div>
 </li>
 </ol>
 <hr>
@@ -164,11 +159,9 @@ git config --global user.email "YourEmail@example.com"
 </li>
 <li>
 <p>添加远程仓库地址：</p>
-<pre lang="bash" class="notranslate"><code class="notranslate">git remote add origin &lt;GitHubRepositoryURL&gt;
-</code></pre>
+<div class="highlight highlight-source-shell"><pre class="notranslate">git remote add origin <span class="pl-k">&lt;</span>GitHubRepositoryURL<span class="pl-k">&gt;</span></pre></div>
 <p>示例：</p>
-<pre lang="bash" class="notranslate"><code class="notranslate">git remote add origin https://github.com/YourUsername/YourRepository.git
-</code></pre>
+<div class="highlight highlight-source-shell"><pre class="notranslate">git remote add origin https://github.com/YourUsername/YourRepository.git</pre></div>
 </li>
 </ol>
 <hr>
@@ -176,9 +169,8 @@ git config --global user.email "YourEmail@example.com"
 <ol>
 <li>
 <p>将代码推送到 GitHub：</p>
-<pre lang="bash" class="notranslate"><code class="notranslate">git branch -M main  # 确保分支名称为 main
-git push -u origin main
-</code></pre>
+<div class="highlight highlight-source-shell"><pre class="notranslate">git branch -M main  <span class="pl-c"><span class="pl-c">#</span> 确保分支名称为 main</span>
+git push -u origin main</pre></div>
 </li>
 <li>
 <p>如果推送成功，您将在 GitHub 仓库页面看到上传的项目文件。</p>
@@ -213,9 +205,8 @@ git pull origin main
 <ul>
 <li>
 <p>使用以下命令解决：</p>
-<pre lang="bash" class="notranslate"><code class="notranslate">git pull origin main --rebase
-git push
-</code></pre>
+<div class="highlight highlight-source-shell"><pre class="notranslate">git pull origin main --rebase
+git push</pre></div>
 </li>
 </ul>
 <h3>3. 无权限推送到远程仓库：</h3>
