@@ -1,2 +1,141 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Delven's Bolg</title><link>https://DelvenSeffler.github.io</link><description>DelvenSeffler's Bolg   幻想，发癫，碎碎念</description><copyright>Delven's Bolg</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/61365778</url><title>avatar</title><link>https://DelvenSeffler.github.io</link></image><lastBuildDate>Mon, 27 Apr 2026 17:16:16 +0000</lastBuildDate><managingEditor>Delven's Bolg</managingEditor><ttl>60</ttl><webMaster>Delven's Bolg</webMaster></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Delven's Bolg</title><link>https://DelvenSeffler.github.io</link><description>DelvenSeffler's Bolg   幻想，发癫，碎碎念</description><copyright>Delven's Bolg</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/61365778</url><title>avatar</title><link>https://DelvenSeffler.github.io</link></image><lastBuildDate>Tue, 28 Apr 2026 17:42:10 +0000</lastBuildDate><managingEditor>Delven's Bolg</managingEditor><ttl>60</ttl><webMaster>Delven's Bolg</webMaster><item><title>Trash can</title><link>https://DelvenSeffler.github.io/post/Trash%20can.html</link><description>
+————
+我要跳伞了
+我没伞
+2025.12.11
+
+
+————
+感觉身上有蚂蚁在爬，哦，真的有蚂蚁在爬。</description><guid isPermaLink="true">https://DelvenSeffler.github.io/post/Trash%20can.html</guid><pubDate>Sun, 14 Dec 2025 17:10:28 +0000</pubDate></item><item><title>我进了盗梦空间？</title><link>https://DelvenSeffler.github.io/post/wo-jin-le-dao-meng-kong-jian-%EF%BC%9F.html</link><description>
+今天回到家的时候，把摩托停好，注意到停车位后边的老宝马汽车不见了，那辆老宝马车自打我住进公寓就一直停在那，落满了灰，每次停车我都用它来确认我有没有把车停到对的位置，突然没了还有点怪怪的。</description><guid isPermaLink="true">https://DelvenSeffler.github.io/post/wo-jin-le-dao-meng-kong-jian-%EF%BC%9F.html</guid><pubDate>Sun, 14 Dec 2025 16:13:27 +0000</pubDate></item><item><title>箱子</title><link>https://DelvenSeffler.github.io/post/xiang-zi.html</link><description>我每天待在家里，有一个星期没走出过公寓。</description><guid isPermaLink="true">https://DelvenSeffler.github.io/post/xiang-zi.html</guid><pubDate>Wed, 19 Nov 2025 16:15:01 +0000</pubDate></item><item><title>VS Code 如何配置 Java 环境</title><link>https://DelvenSeffler.github.io/post/VS%20Code%20-ru-he-pei-zhi-%20Java%20-huan-jing.html</link><description>
+
+## 一 下载并安装 JDK
+
+1 打开 OpenJDK 官方网站
+ https://jdk.java.net/
+
+2 找到当前长期支持版本，通常为 JDK 17
+ 在页面中选择 Windows x64 的压缩包 zip
+
+3 下载后将 zip 文件解压到任意位置
+ 推荐路径
+ C:/Program Files/OpenJDK/jdk-17
+
+
+
+------
+
+## 二 配置系统环境变量
+
+确保系统能正确找到 Java 编译器和运行环境
+
+### 1 打开环境变量管理
+
+Windows 搜索栏输入
+ 环境变量
+ 进入系统属性→环境变量
+
+### 2 创建 JAVA_HOME
+
+系统变量→新建
+ 变量名
+ JAVA_HOME
+ 变量值
+ C:/Program Files/OpenJDK/jdk-17 (此处为你的JDK路径)
+
+### 3 修改 Path
+
+系统变量中找到 Path → 编辑
+ 新增一行
+ %JAVA_HOME%/bin
+
+### 4 验证环境变量
+
+打开终端输入
+ java -version
+ 成功显示版本号说明配置完成
+
+------
+
+## 三 安装 VS Code 扩展
+
+1 打开 VS Code
+ 2 进入扩展
+ 3 搜索 Extension Pack for Java
+ 4 点击安装
+ 它会自动安装 Java 开发所需组件
+ （包括调试器、语言支持、项目管理等）
+
+------
+
+## 四 让 VS Code 使用 OpenJDK
+
+若 VS Code 没自动识别 JAVA_HOME，可手动指定
+
+1 按 Ctrl Shift P
+ 2 搜索 settings.json
+ 3 打开用户设置文件
+ 4 添加配置
+
+'java.home': 'C:/Program Files/OpenJDK/jdk-17' （此处为你的JDK路径）
+
+保存后 VS Code 会重新加载 Java 环境
+
+------
+
+## 五 测试你的环境
+
+1 新建文件夹作为项目
+ 2 创建 HelloWorld.java
+ 3 输入以下代码
+
+```
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println('Hello, World!');
+    }
+}
+```
+
+4 点右上角运行
+ 看到输出 Hello Java 表示环境已完全搭建成功。</description><guid isPermaLink="true">https://DelvenSeffler.github.io/post/VS%20Code%20-ru-he-pei-zhi-%20Java%20-huan-jing.html</guid><pubDate>Mon, 17 Nov 2025 12:32:23 +0000</pubDate></item><item><title>我有时不知该怎么回应，有时不知该作何反应</title><link>https://DelvenSeffler.github.io/post/wo-you-shi-bu-zhi-gai-zen-me-hui-ying-%EF%BC%8C-you-shi-bu-zhi-gai-zuo-he-fan-ying.html</link><description>缺乏爱又渴望爱的人，就像溺水者，嗅到哪怕一丝好像爱的味道，都会本能地牢牢抓住不放。</description><guid isPermaLink="true">https://DelvenSeffler.github.io/post/wo-you-shi-bu-zhi-gai-zen-me-hui-ying-%EF%BC%8C-you-shi-bu-zhi-gai-zuo-he-fan-ying.html</guid><pubDate>Sat, 21 Jun 2025 11:24:11 +0000</pubDate></item><item><title>路过</title><link>https://DelvenSeffler.github.io/post/lu-guo.html</link><description>我晚上回到家的必经之路上有一个烧烤摊，每一次老板娘都热情拉客问我要不要来吃，就像你每次经过海底捞。</description><guid isPermaLink="true">https://DelvenSeffler.github.io/post/lu-guo.html</guid><pubDate>Wed, 11 Jun 2025 04:26:06 +0000</pubDate></item><item><title>About me</title><link>https://DelvenSeffler.github.io/post/About%20me.html</link><description>
+?
+
+和你一样来自地球，博客摘录自日记中不太私密的某些片段
+
+email : delvenseffler@gmail。</description><guid isPermaLink="true">https://DelvenSeffler.github.io/post/About%20me.html</guid><pubDate>Wed, 28 May 2025 02:46:17 +0000</pubDate></item><item><title>气球</title><link>https://DelvenSeffler.github.io/post/qi-qiu.html</link><description>在梦里吹了一个气球，气球越吹越大，我想牵着它离开，可手里的线慢慢变长，长到气球抬头也再不能看到。</description><guid isPermaLink="true">https://DelvenSeffler.github.io/post/qi-qiu.html</guid><pubDate>Sun, 25 May 2025 09:19:10 +0000</pubDate></item><item><title>夜路</title><link>https://DelvenSeffler.github.io/post/ye-lu.html</link><description>不知道从什么时候开始，伤心时总会在夜里散步，在天上能看得见星星的时候，走没有人的路，偶尔路过汽车疾驰而过，有些路段漆黑一片路灯也没有，周围是正在开发的荒地，走了一个多小时折返回来。</description><guid isPermaLink="true">https://DelvenSeffler.github.io/post/ye-lu.html</guid><pubDate>Sat, 24 May 2025 03:04:03 +0000</pubDate></item><item><title>世界真相</title><link>https://DelvenSeffler.github.io/post/shi-jie-zhen-xiang.html</link><description>当你看到这段文字的时候，你将短暂知晓世界的真相，那就是以往以及未来几年你所经历的这一切，都只是一个大型虚拟现实游戏，当然你不会意识到这一点。</description><guid isPermaLink="true">https://DelvenSeffler.github.io/post/shi-jie-zhen-xiang.html</guid><pubDate>Mon, 12 May 2025 17:09:00 +0000</pubDate></item><item><title>记忆</title><link>https://DelvenSeffler.github.io/post/ji-yi.html</link><description>一段记忆一直在我大脑深处，我不确定能否用记忆这个词来讲，但一定不能说是回忆。</description><guid isPermaLink="true">https://DelvenSeffler.github.io/post/ji-yi.html</guid><pubDate>Thu, 01 May 2025 04:38:05 +0000</pubDate></item><item><title>一点脑洞</title><link>https://DelvenSeffler.github.io/post/yi-dian-nao-dong.html</link><description>你在某个时刻想到未来的某一天也许会回想起现在的自己和状态，多年以后你真的在不经意的瞬间回想起了它，人生的时间轴被打上了锚点，现在和过去的你跨越时间对视。</description><guid isPermaLink="true">https://DelvenSeffler.github.io/post/yi-dian-nao-dong.html</guid><pubDate>Thu, 01 May 2025 04:37:07 +0000</pubDate></item><item><title>我在情人节送出一百多朵玫瑰</title><link>https://DelvenSeffler.github.io/post/wo-zai-qing-ren-jie-song-chu-yi-bai-duo-duo-mei-gui.html</link><description>今天中午突发奇想，在情人节的今天送单身的朋友免费玫瑰花。</description><guid isPermaLink="true">https://DelvenSeffler.github.io/post/wo-zai-qing-ren-jie-song-chu-yi-bai-duo-duo-mei-gui.html</guid><pubDate>Thu, 01 May 2025 04:36:27 +0000</pubDate></item><item><title>关于小行星是否会撞击地球的推论</title><link>https://DelvenSeffler.github.io/post/guan-yu-xiao-xing-xing-shi-fou-hui-zhuang-ji-di-qiu-de-tui-lun.html</link><description>小行星或在2032年撞击地球？
+
+放心我大胆预测一波根本撞不了
+首先已知这个概率特别低
+其次我希望这个小行星撞上去
+同时我每次希望的事都不会发生
+由此可得，根本不会撞
+洗洗睡吧
+
+2025.2.21。</description><guid isPermaLink="true">https://DelvenSeffler.github.io/post/guan-yu-xiao-xing-xing-shi-fou-hui-zhuang-ji-di-qiu-de-tui-lun.html</guid><pubDate>Thu, 01 May 2025 04:35:28 +0000</pubDate></item><item><title>我遇到的桃花颠？</title><link>https://DelvenSeffler.github.io/post/wo-yu-dao-de-tao-hua-dian-%EF%BC%9F.html</link><description>刷到一个讲桃花颠的视频。</description><guid isPermaLink="true">https://DelvenSeffler.github.io/post/wo-yu-dao-de-tao-hua-dian-%EF%BC%9F.html</guid><pubDate>Thu, 01 May 2025 04:33:43 +0000</pubDate></item><item><title>一款纯粹的字幕遮挡软件-助力看剧学习英语</title><link>https://DelvenSeffler.github.io/post/yi-kuan-chun-cui-de-zi-mu-zhe-dang-ruan-jian---zhu-li-kan-ju-xue-xi-ying-yu.html</link><description>## **LearnAnyLanguageFromVideos**  
+
+此软件可让你通过观看视频学习任何语言，我是说 **在观看双语视频时遮挡字幕**，起到一个 “电子贴纸” 的作用，特别适合语言学习者在不依赖字幕的情况下提高听力水平。</description><guid isPermaLink="true">https://DelvenSeffler.github.io/post/yi-kuan-chun-cui-de-zi-mu-zhe-dang-ruan-jian---zhu-li-kan-ju-xue-xi-ying-yu.html</guid><pubDate>Thu, 01 May 2025 04:28:49 +0000</pubDate></item><item><title>Git-工具使用教程：如何使用-Git-上传项目到-GitHub</title><link>https://DelvenSeffler.github.io/post/Git--gong-ju-shi-yong-jiao-cheng-%EF%BC%9A-ru-he-shi-yong--Git--shang-chuan-xiang-mu-dao--GitHub.html</link><description>## 前置条件
+
+### 1. 安装 Git：
+- 下载并安装 [Git](https://git-scm.com/)，安装后配置全局用户名和邮箱：
+
+    ```bash
+    git config --global user.name 'YourName'
+    git config --global user.email 'YourEmail@example.com'
+    ```
+
+### 2. 创建 GitHub 账户：
+- 如果没有账号，请访问 [GitHub](https://github.com/) 注册。</description><guid isPermaLink="true">https://DelvenSeffler.github.io/post/Git--gong-ju-shi-yong-jiao-cheng-%EF%BC%9A-ru-he-shi-yong--Git--shang-chuan-xiang-mu-dao--GitHub.html</guid><pubDate>Thu, 01 May 2025 04:23:40 +0000</pubDate></item><item><title>VsCode常用快捷键</title><link>https://DelvenSeffler.github.io/post/VsCode-chang-yong-kuai-jie-jian.html</link><description>左移：Shift+TAB
+右移: TAB
+跳出括号 : ctrl + →
+多选： 按住 shift
+光标快速移动： 按住 ctrl
+
+上下移动一行代码：ALT+Up或Alt+down
+代码格式化：Shift+Alt+F
+重命名变量：F2（会将引用的地方一起修改）
+批量选中全局匹配项：ctrl + shift  + L
+命令窗口 Ctrl + Shift + P
+文件查找 ctrl + p
+。</description><guid isPermaLink="true">https://DelvenSeffler.github.io/post/VsCode-chang-yong-kuai-jie-jian.html</guid><pubDate>Thu, 01 May 2025 03:22:23 +0000</pubDate></item></channel></rss>
